@@ -1,5 +1,3 @@
-Sure! Here's the formatted version of the GitHub README using Markdown syntax:
-
 # DIGGS File Validator and Viewer
 
 Welcome to the DIGGS File Validator and Viewer! This standalone tool is designed to simplify the process of validating and viewing DIGGS (Drilling Information Geotechnical Geoscience Standards) files. It provides a user-friendly way to check the validity and explore the contents of any DIGGS file, including drilling data, MWD (Measurement While Drilling), CPT (Cone Penetration Testing), and more.
