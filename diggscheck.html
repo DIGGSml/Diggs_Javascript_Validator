@@ -18,12 +18,14 @@
 <body>
   <h1>Embedded DIGGS Validator & Viewer</h1>
   
-  <h2>XML:</h2>
-  <pre><code id="xmlContent"></code></pre>
+
   <p id="validationResult"></p>
   
   <h2>XML Tree:</h2>
   <div id="xmlTree"></div>
+
+  <h2>XML:</h2>
+  <pre><code id="xmlContent"></code></pre>
   
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
@@ -705,7 +707,7 @@
 </Diggs>`;
     
     // Display the XML content
-    // xmlContentElement.textContent = xmlContent;
+    xmlContentElement.textContent = xmlContent;
     
     // Validate the XML
     const isValid = validateXML(xmlContent);
